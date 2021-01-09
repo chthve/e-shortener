@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+.shorten_form_first {
+  z-index: 2;
+}
+
+.shorten_img {
+  height: 370px;
+  width: auto;
+  position: absolute;
+  bottom: 15px;
+  left: -50px;
+  z-index: 1;
+}
+
+.shorten_choice {
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 30vh;
+}
+.choice_title {
+  color: #aaa;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.choice_recommandation {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.shorten_form_second {
+  z-index: 2;
+}
+
+.final_url {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.final_text {
+  color: #aaa;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+  z-index: 2;
+}
+
+.final_img {
+  height: 25px;
+  width: auto;
+  padding: 0 0.6rem;
+}

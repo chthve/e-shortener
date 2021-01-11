@@ -5,9 +5,10 @@ const Url = require('../models/url');
 
 const baseUrl = 'http://localhost:3001';
 
-exports.getURL = async (req, res) => {
+exports.postInfoURL = async (req, res) => {
   try {
     const { url } = req.body;
+    console.log(url);
     const resUrl = await Url.findOne({ url });
     res.send(resUrl);
   } catch (error) {

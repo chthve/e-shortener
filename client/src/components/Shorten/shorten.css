@@ -4,6 +4,49 @@
   z-index: 2;
 }
 
+.input_container {
+  position: relative;
+}
+
+.input_label {
+  position: absolute;
+  padding: 0 0.5rem;
+  left: 22px;
+  top: 16px;
+  font-size: 14px;
+  color: #ccc;
+  transition: .5s;
+  pointer-events: none;
+}
+
+input:focus + label,
+input:valid + label {
+  top: -9px;
+  background: white;
+  color: #0F548C;
+  font-size: 12px;
+}
+
+input:focus + .input_img,
+input:valid + .input_img {
+  visibility: visible;
+}
+
+.input_button {
+  height: 30px;
+  width: 30px;
+  right: 3px;
+  top: 10px;
+  background: none;
+  border: none;
+  position: absolute;
+}
+
+.input_img {
+  height: 30px;
+  width: auto;
+}
+
 .shorten_img {
   height: 370px;
   width: auto;
@@ -13,18 +56,22 @@
   z-index: 1;
 }
 
-.shorten_choice {
+.form_container {
   z-index: 2;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: column;
   height: 30vh;
 }
-.choice_title {
+
+.form_title {
   color: #aaa;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  font-size: 25px;
 }
 
 .choice_recommandation {
@@ -38,6 +85,13 @@
   z-index: 2;
 }
 
+.final_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
 .final_url {
   display: flex;
   flex-direction: row;
@@ -45,17 +99,48 @@
   align-items: center;
 }
 
+
 .final_text {
-  color: #aaa;
+  color: #ccc;
   font-weight: 200;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #ccc;
   z-index: 2;
+}
+
+.final_text:hover {
+  color: #0f548c;
+  border-bottom: 1px solid #0f548c;
 }
 
 .final_img {
   height: 25px;
   width: auto;
   padding: 0 0.6rem;
+}
+
+.centered_btn_first {
+  margin-top: 2.5rem;
+}
+
+.form_list_container {
+  font-size: 10px;
+  color: #ccc;
+  position: absolute;
+  bottom: 150px;
+}
+
+.form_list {
+  text-align: left;
+}
+
+.form_list_title {
+  margin-bottom: 1rem;
+}
+
+.copied {
+  margin-top: 1rem;
+  font-size: 10px;
+  color: #ccc;
 }

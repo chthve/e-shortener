@@ -66,12 +66,15 @@ export const Choice = styled.button`
 
 export const Input = styled.input`
   width: 350px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 30px;
   border: 1px solid #ddd;
   color: #aaa;
   &:focus {
     transition: 0.5s;
+    border: 1px solid #0f548c;
+  }
+  &:valid {
     border: 1px solid #0f548c;
   }
 `;

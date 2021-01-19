@@ -8,9 +8,12 @@ const baseUrl = 'http://localhost:3001';
 exports.postInfoURL = async (req, res) => {
   try {
     const { url } = req.body;
-    console.log(url);
-    const resUrl = await Url.findOne({ url });
-    res.send(resUrl);
+    const resUrl = await Url.findOne({ shortUrl: url });
+    if (resUrl) {
+      res.send(resUrl);
+    } else {
+      res.send(401).send('Invalid url');
+    }
   } catch (error) {
     console.error(error);
     res.status(401).send('Invalid long url');

@@ -7,6 +7,7 @@ import Home from "../Home/home";
 import Shorten from "../Shorten/shorten";
 import About from "../About/about";
 import Info from "../Info/info";
+import Page404 from "../Page404/page404";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/shorten" component={Shorten} />
         <Route exact path="/URL" component={Info} />
         <Route exact path="/about" component={About} />
+        <Route component={Page404} />
       </Switch>
     </Router>
   );

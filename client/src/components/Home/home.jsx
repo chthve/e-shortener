@@ -4,6 +4,8 @@ import "./home.css";
 import homeImg from "../../assets/home.png";
 import linkImg from "../../assets/url.svg";
 import home3img from "../../assets/home_3.png";
+import form1 from "../../assets/forms/Asset-9.png";
+import form2 from "../../assets/forms/Asset-10.svg";
 
 import { Button, MainContainer } from "../styles";
 
@@ -28,6 +30,8 @@ const Home = () => {
         </div>
         <img src={homeImg} alt="info" className="home_img" />
         <img src={home3img} alt="info" className="home2_img" />
+        <img src={form1} alt="" className="form_1" />
+        <img src={form2} alt="" className="form_2" />
       </MainContainer>
     </>
   );

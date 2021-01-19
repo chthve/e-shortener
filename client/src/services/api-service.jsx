@@ -18,7 +18,7 @@ exports.postShorten = async (url) => {
   }
 };
 
-exports.postURL = async ({ url }) => {
+exports.postURL = async (url) => {
   try {
     return fetch(`${BASE_URL}/info`, {
       method: "POST",

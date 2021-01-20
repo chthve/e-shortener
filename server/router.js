@@ -6,7 +6,7 @@ const { postURL, postInfoURL } = require('./controllers/url.ctrl');
 const router = express.Router();
 
 router.get('*', (req, res) => {
-  res.sendFile(path.join(`${__dirname}/../client/build/index.html`));
+  res.sendFile(path.join(`${__dirname}/client/build/index.html`));
 });
 
 router.get('/:code', redirectClient);

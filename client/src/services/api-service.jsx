@@ -1,8 +1,9 @@
 /* eslint-disable consistent-return */
 /* eslint-disable no-console */
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+console.log(BASE_URL);
 
-exports.postShorten = async (url) => {
+export async function postShorten(url) {
   try {
     return fetch(`${BASE_URL}/shorten`, {
       method: "POST",
@@ -16,9 +17,9 @@ exports.postShorten = async (url) => {
   } catch (error) {
     console.log(error);
   }
-};
+}
 
-exports.postURL = async (url) => {
+export async function postURL(url) {
   try {
     return fetch(`${BASE_URL}/info`, {
       method: "POST",
@@ -32,4 +33,4 @@ exports.postURL = async (url) => {
   } catch (error) {
     console.log(error);
   }
-};
+}

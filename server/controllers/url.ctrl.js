@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const baseUrl = process.env.BASE_URL;
 
-console.log(baseUrl);
+console.log(process.env.NODE_ENV);
 
 exports.postInfoURL = async (req, res) => {
   try {

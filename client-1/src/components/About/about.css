@@ -1,0 +1,52 @@
+.about-us_container {
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.about-us_text {
+  width: 100%;
+  line-height: 1.8rem;
+  color: #ccc;
+}
+
+.about-us_text + .about-us_text {
+  margin-top: 1rem;
+}
+
+.about-us_text_logo {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.about_img {
+  position: absolute;
+  height: 800px;
+  bottom: -242px;
+  z-index: -1;
+  left: 0;
+}
+
+.about_img_plant {
+  position: absolute;
+  height: 240px;
+  bottom: -2px;
+  z-index: -1;
+  right: 70px;
+}
+
+.about_img_cloud {
+  position: absolute;
+  height: 100px;
+  top: 170px;
+  z-index: -1;
+  left: 400px;
+}
+
+.github_logo {
+  height: 40px;
+}
+
+.github_link {
+  cursor: pointer;
+  z-index: 2;
+}

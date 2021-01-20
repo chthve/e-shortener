@@ -8,6 +8,7 @@ import img2 from "../../assets/shorten-2.svg";
 import img3 from "../../assets/shorten-3.svg";
 import img4 from "../../assets/shorten-4.svg";
 import party from "../../assets/party.png";
+import copy from "../../assets/copy.svg";
 import { MainContainer, Input, Choice } from "../styles";
 import { postShorten } from "../../services/api-service";
 import Loader from "../Loader/loader";
@@ -154,7 +155,10 @@ const Shorten = () => {
                 <img className="final_img" src={party} alt="" />
               </div>
               <CopyToClipboard text={urlRes} onCopy={() => setCopied(true)}>
-                <Choice className="centered_btn">Copy to clipboard</Choice>
+                <Choice>
+                  Copy to clipboard
+                  <img src={copy} alt="" className="copy_img" />
+                </Choice>
               </CopyToClipboard>
             </div>
           )}

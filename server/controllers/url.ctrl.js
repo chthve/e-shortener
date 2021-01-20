@@ -2,8 +2,11 @@
 const validUrl = require('valid-url');
 const { nanoid } = require('nanoid');
 const Url = require('../models/url');
+require('dotenv').config();
 
-const baseUrl = 'http://localhost:3001';
+const baseUrl = process.env.BASE_URL;
+
+console.log(baseUrl);
 
 exports.postInfoURL = async (req, res) => {
   try {

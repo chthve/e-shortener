@@ -25,11 +25,8 @@ input:valid + label {
   background: white;
   color: #0F548C;
   font-size: 12px;
-}
-
-input:focus + .input_img,
-input:valid + .input_img {
-  visibility: visible;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .input_button {
@@ -169,4 +166,11 @@ input:valid + .input_img {
   margin-top: 1rem;
   font-size: 10px;
   color: #ccc;
+}
+
+.copy_img {
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
 }

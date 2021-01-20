@@ -66,7 +66,7 @@ const Info = () => {
             <>
               {resUrl.clickCounter && (
                 <div className="info_container">
-                  <p>Your URL have been accessed </p>
+                  <p>Your URL has been accessed </p>
                   <p className="info_text">{resUrl.clickCounter.length}</p>
                   <p>times</p>
                   {resUrl.clickCounter.length > 1 && (

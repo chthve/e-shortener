@@ -43,6 +43,7 @@ export const Choice = styled.button`
   border-radius: 30px;
   cursor: pointer;
   background-color: #0f548c;
+  position: relative;
   border: none;
   font-weight: 300;
   color: #eee;

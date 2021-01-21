@@ -49,6 +49,13 @@ REACT_APP_BASE_URL:<SERVER BASE URL>
   <img width="600px" src="client/src/assets/readme/Info-2.png"/>
 </div>
 
+## Todo
+
+Some of the things to improve:
+
+- Responsive design 📱
+- Deploy with AWS 👨‍💻
+
 
  ## Tech Stack
 * [React](https://reactjs.org/)
@@ -58,12 +65,6 @@ REACT_APP_BASE_URL:<SERVER BASE URL>
 * [Express](https://expressjs.com/)
 * [Styled-components](https://styled-components.com/)
 
-## Todo
-
-Some of the things to improve:
-
-- Responsive design 📱
-- Deploy with AWS 👨‍💻
 
 ### Author
 

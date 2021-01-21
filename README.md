@@ -38,8 +38,8 @@ REACT_APP_BASE_URL:<SERVER BASE URL>
 ### Shortening page
 
 <div align="center">
-  <img width="430px" src="client/src/assets/readme/Shorten-1.png"/>
-  <img width="430px" src="client/src/assets/readme/Shorten-2.png"/>
+  <img width="450px" src="client/src/assets/readme/Shorten-1.png"/>
+  <img width="450px" src="client/src/assets/readme/Shorten-2.png"/>
 </div>
 
 ### Stats page

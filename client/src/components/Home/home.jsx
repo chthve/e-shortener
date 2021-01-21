@@ -27,7 +27,7 @@ const Home = () => {
               <img src={linkImg} alt="url_img" className="link_img" />
             </Button>
           </Link>
-          <Link to="info" className="btn">
+          <Link to="/URL" className="btn">
             <Button primary>Get info on a URL</Button>
           </Link>
         </div>

@@ -31,22 +31,22 @@ REACT_APP_BASE_URL:<SERVER BASE URL>
 ### Home page & About us
 
 <div align="center">
-  <img width="800px" src="client/src/assets/readme/Home-page.png"/>
-  <img width="800px" src="client/src/assets/readme/About.png"/>
+  <img width="600px" src="client/src/assets/readme/Home-page.png"/>
+  <img width="600px" src="client/src/assets/readme/About.png"/>
 </div>
 
 ### Shortening page
 
 <div align="center">
-  <img width="450px" src="client/src/assets/readme/Shorten-1.png"/>
-  <img width="450px" src="client/src/assets/readme/Shorten-2.png"/>
+  <img width="600px" src="client/src/assets/readme/Shorten-1.png"/>
+  <img width="600px" src="client/src/assets/readme/Shorten-2.png"/>
 </div>
 
 ### Stats page
 
 <div align="center">
-  <img width="450px" src="client/src/assets/readme/Info-1.png"/>
-  <img width="450px" src="client/src/assets/readme/Info-2.png"/>
+  <img width="600px" src="client/src/assets/readme/Info-1.png"/>
+  <img width="600px" src="client/src/assets/readme/Info-2.png"/>
 </div>
 
 

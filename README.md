@@ -1,7 +1,7 @@
 # E-shortener
 
 `E-shorten` is a URL shortening app established in 2020 with a desire to help you simplify and manage your most used URL’s. 🏋️‍♂️
-You can try it there 👇
+You can try it here 👇
 - https://e-shortener.netlify.app/
 
 ## Getting-Started

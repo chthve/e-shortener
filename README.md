@@ -16,13 +16,13 @@ PORT=<PORT>
 DB_PORT='mongodb://localhost:27017/<DB_NAME>'
 BASE_URL='<BASE_URL>'
 ```
-2) ```cd client && npm install```
-3) In the client repository create a ```.env``` file with this variable 
+4) ```cd client && npm install```
+5) In the client repository create a ```.env``` file with this variable 
 
 ```
 REACT_APP_BASE_URL:<SERVER BASE URL>
 ```
-4) Run   ``` npm start``` from the root repository.
+6) Run   ``` npm start``` from the root repository.
 
   Et voilà! 🍷 You are all set !
 

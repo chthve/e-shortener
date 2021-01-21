@@ -31,7 +31,7 @@ REACT_APP_BASE_URL:<SERVER BASE URL>
 ### Home page & About us
 
 <div align="center">
-  <img width="450px" src="client/src/assets/readme/Home-Page.png"/>
+  <img width="450px" src="client/src/assets/readme/Home-page.png"/>
   <img width="450px" src="client/src/assets/readme/About.png"/>
 </div>
 

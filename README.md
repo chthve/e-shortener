@@ -68,7 +68,7 @@ Some of the things to improve:
 
 ### Author
 
-- Charles-Thibault Verrier - [GitHub](https://github.com/chthve) [Linkedin](https://linkedin.com/in/chthve)
+- Charles-Thibault Verrier - [GitHub](https://github.com/chthve) - [Linkedin](https://linkedin.com/in/chthve)
 
 ## License
 
